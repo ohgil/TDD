@@ -51,5 +51,17 @@ class CalcApplicationTests {
 		assertThat(CalcApp.run("100 - 20")).isEqualTo(80);
 	}
 
+	@Test
+	@DisplayName("100 * 20 == 2000")
+	void t8() {
+		assertThat(CalcApp.run("100 * 20")).isEqualTo(2000);
+	}
+
+	@Test
+	@DisplayName("100 / 20 == 5")
+	void t9() {
+		assertThat(CalcApp.run("100 / 20")).isEqualTo(5);
+	}
+
 
 }
